@@ -245,7 +245,7 @@ fv
 @media screen and (max-width: 768px) {
   .fv__left {
     position: static;
-    margin-top: 180px;
+    margin-top: 140px;
     margin-inline: auto;
   }
 }
@@ -342,6 +342,11 @@ about
 ===============================*/
 .about {
   background: #141414;
+}
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 80px 0 100px;
+  }
 }
 
 .about__wrapper {
